@@ -7,6 +7,7 @@ public abstract class Pessoa {
 	private int numero;
 	private String complemento;
 	private String bairro;
+	
 	public String getNome() {
 		return nome;
 	}

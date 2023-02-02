@@ -6,7 +6,8 @@ public class Funcionario extends Pessoa {
 	
 	private int matricula;
 	private Departamento departamento;
-	private ArrayList<Atendimento> atendimento;
+	private ArrayList<Atendimento> atendimentos;
+	
 	public int getMatricula() {
 		return matricula;
 	}
@@ -20,10 +21,10 @@ public class Funcionario extends Pessoa {
 		this.departamento = departamento;
 	}
 	public ArrayList<Atendimento> getAtendimento() {
-		return atendimento;
+		return atendimentos;
 	}
 	public void setAtendimento(ArrayList<Atendimento> atendimento) {
-		this.atendimento = atendimento;
+		this.atendimentos = atendimento;
 	}
 	
 }
